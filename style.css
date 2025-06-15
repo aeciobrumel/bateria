@@ -34,7 +34,14 @@ h1 {
   font-family: "Courier New", Courier, monospace;
   font-style: normal;
 }
-
+.active {
+  color: #e6c50d;
+  border-color: #e6c50d;
+}
+.composer button:hover {
+  background-color: #fff;
+  color: #4e4d4d;
+}
 .composer {
   padding-top: 10px;
   display: flex;
