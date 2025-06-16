@@ -28,7 +28,7 @@ function keystyle(e) {
 }
 
 function playComposer() {
-  let song = document.querySelector("#input").value;
+  let song = document.querySelector("#input").value.toLowerCase();
   if (song !== " ") {
     let musica = song.split("");
     wait = 0;
